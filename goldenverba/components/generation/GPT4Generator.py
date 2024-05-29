@@ -63,7 +63,7 @@ class GPT4Generator(Generator):
                 "model": self.model_name,
                 "messages": messages,
                 "stream": True,
-                "temperature": 0.0,
+                "temperature": 0.5,
             }
             if openai.api_type == "azure":
                 chat_completion_arguments["deployment_id"] = self.model_name

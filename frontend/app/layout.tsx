@@ -4,8 +4,8 @@ import "./globals.css";
 import { detectHost } from "./api";
 
 export const metadata: Metadata = {
-  title: "Verba",
-  description: "The GoldenRAGtriever",
+  title: "Parsed",
+  description: "Poli Chatbot",
 };
 
 export default function RootLayout({
